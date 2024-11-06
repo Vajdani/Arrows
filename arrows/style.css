@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 10dvh;
+    width: 30dvw;
+}
+
+.arrow {
+    font-size: 200%;
+    padding: 15px;
+}
+
+.start {
+    cursor: pointer;
+    background-color: green;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.stop {
+    cursor: pointer;
+    background-color: red;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
