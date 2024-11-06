@@ -11,22 +11,22 @@
 
 <body>
     <div class="container">
-        <div id="display" class="display">
-            <div class="">
+        <div class="display" id="displayContainer">
+            <div id="display">
                 DISPLAY_PLACEHOLDER
             </div>
         </div>
         <div class="container">
-            <button class="arrow">↑</button>
+            <button class="arrow" id="UP">↑</button>
             <div>
-                <button class="arrow">←</button>
-                <button class="arrow">↓</button>
-                <button class="arrow">→</button>
+                <button class="arrow" id="LEFT">←</button>
+                <button class="arrow" id="DOWN">↓</button>
+                <button class="arrow" id="RIGHT">→</button>
             </div>
         </div>
         <div>
-            <button onclick="" class="start">START</button>
-            <button onclick="" class="stop">STOP</button>
+            <button onclick="Start()" class="start">START</button>
+            <button onclick="Stop()" class="stop">STOP</button>
         </div>
     </div>
 </body>
